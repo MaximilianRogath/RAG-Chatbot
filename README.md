@@ -63,6 +63,5 @@ Technologies Used:
 
 Security:
 This project follows security best practices:
-API keys stored in environment variables
-Sensitive files excluded from version control
-Template configuration file provided
+- API keys stored in environment variables
+- Sensitive files excluded from version control
