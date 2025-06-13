@@ -23,7 +23,7 @@ Install dependencies:
 bashpip install -r requirements.txt
 
 Set up environment variables:
-Copy env.example.env to .env
+Copy env.example to .env
 
 Add your OpenAI and Pinecone API keys:
 OPENAI_API_KEY=your_openai_api_key_here
