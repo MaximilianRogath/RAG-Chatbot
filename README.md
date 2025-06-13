@@ -61,7 +61,7 @@ Technologies Used:
 - Gradio - Web interface
 - Python - Core programming language
 
-Security
+Security:
 This project follows security best practices:
 API keys stored in environment variables
 Sensitive files excluded from version control
