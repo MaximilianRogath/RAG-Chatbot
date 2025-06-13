@@ -48,11 +48,12 @@ Configuration:
 - Vector Store: Pinecone index named "pinecone-chatbot"
 
 Example Questions: 
+
 Customize these based on your data content:
-"What information do you have about...?"
-"Can you explain...?"
-"What are the details regarding...?"
-"How does... work?"
+- "What information do you have about...?"
+- "Can you explain...?"
+- "What are the details regarding...?"
+- "How does... work?"
 
 Technologies Used:
 - LangChain - Framework for LLM applications
@@ -62,6 +63,7 @@ Technologies Used:
 - Python - Core programming language
 
 Security:
+
 This project follows security best practices:
 - API keys stored in environment variables
 - Sensitive files excluded from version control
