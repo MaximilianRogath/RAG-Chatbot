@@ -4,6 +4,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 import os
 import gradio as gr
+from dotenv import load_dotenv
 
 # Load Environment Variables
 load_dotenv()
@@ -82,14 +83,14 @@ def respond(message, history):
 # Create Gradio Interface
 demo = gr.ChatInterface(
     fn=respond,
-    title="Virtual Assistant Aschaffenburg UAS",
-    description="Welcome to the virtual assistant of Aschaffenburg University of Applied Sciences. Please refrain from sharing any personal or sensitive information. This assistant is designed to answer general questions about our university and services. How can I help you today?",
+    title="Virtual Assistant",
+    description="Enter your description",
     theme=gr.themes.Soft(),
     examples=[
-        "What is the number of students at the university?",
-        "Which degree programmes are offered?",
-        "When was Aschaffenburg UAS founded?",
-        "What are the library's opening hours?"
+        "Example Question One",
+        "Example Question Two",
+        "Example Question Three",
+        "Example Question Four"
     ],
     retry_btn=None,
     undo_btn=None
