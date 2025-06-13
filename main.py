@@ -31,7 +31,7 @@ def load_existing_conversation_system():
         # Embeddings (same as used in setup)
         embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
         
-        # Load existing vector store
+        # Load Existing Vector Store
         index_name = "pinecone-chatbot"
         vectorstore = PineconeVectorStore(
             index_name=index_name,
@@ -50,7 +50,7 @@ def load_existing_conversation_system():
             return_messages=True
         )
         
-        # Create conversation system
+        # Create Conversation System
         conversation_chain = ConversationalRetrievalChain.from_llm(
             llm=llm,
             retriever=vectorstore.as_retriever(),
@@ -66,7 +66,7 @@ def load_existing_conversation_system():
         print("Please run 'python setup_index.py' first to create the index.")
         raise
 
-# Load conversation system (not create!)
+# Load Conversation System (not create!)
 conversation_system = load_existing_conversation_system()
 
 # Function for Gradio Interface
@@ -96,6 +96,6 @@ demo = gr.ChatInterface(
     undo_btn=None
 )
 
-# Start app
+# Start App
 if __name__ == "__main__":
     demo.launch(share=True)
