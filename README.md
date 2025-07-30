@@ -21,7 +21,7 @@ The project is split into two main components:
 
 Clone the repository:
 ```bash
-git clone https://github.com/MaximilianRogath/rag-chatbot.git
+git clone https://github.com/MaximilianRogath/RAG-Chatbot.git
 cd rag-chatbot
 ```
 
