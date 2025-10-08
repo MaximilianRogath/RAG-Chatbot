@@ -83,3 +83,6 @@ This project follows security best practices:
 
 * API keys stored in environment variables
 * Sensitive files excluded from version control
+
+## License
+This project is licensed under the MIT License.
