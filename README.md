@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 Set up environment variables:
-Copy env.example to .env
+Copy env_example to .env
 
 Add your OpenAI and Pinecone API keys:
 ```
@@ -76,13 +76,6 @@ Customize these based on your data content:
 * Pinecone - Vector database for similarity search
 * Gradio - Web interface
 * Python - Core programming language
-
-## Security
-
-This project follows security best practices:
-
-* API keys stored in environment variables
-* Sensitive files excluded from version control
 
 ## License
 This project is licensed under the MIT License.
