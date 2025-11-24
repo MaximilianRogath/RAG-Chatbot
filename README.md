@@ -29,15 +29,12 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
-Set up environment variables:
-Copy env_example to .env
-
-Add your OpenAI and Pinecone API keys:
+To set up your environment variables, just copy env_example to your .env and add your API keys:
 ```
 OPENAI_API_KEY=your_openai_api_key_here
 PINECONE_API_KEY=your_pinecone_api_key_here
 ```
+ 
 
 ## Usage
 
